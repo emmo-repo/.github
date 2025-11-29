@@ -1,15 +1,18 @@
 # Welcome to the EMMO Framework Repository
-<!-- LOGO -->
 <p align="center">
   <a href="https://github.com/emmo-repo/EMMO">
-    <img src="https://github.com/emmo-repo/EMMO/raw/master/doc/emmo-logo.png" alt="EMMO logo" width="180">
+    <img src="https://github.com/emmo-repo/EMMO/raw/master/doc/emmo-logo.png" alt="EMMO logo" width="120">
   </a>
 </p>
 
+
 The **EMMO** is the results of a **multidisciplinary effort** to develop a standard representational framework that is consistent with **scientific principles and methodologies**. It merges the efforts of physicists, engineers, materials scientists, analytical philosophers, information and communication scientists. 
 
-The EMMO provides **framework for knowledge capture and interoperability** that is rooted on **applied sciences principles**. However, it's foundational approach makes it suitable for the usage in many other fields.
+The EMMO provides **framework for knowledge capture and interoperability** that is rooted on **applied sciences principles**. However, it's foundational approach makes it suitable for the usage in many other fields and qualifies it as a **top-level ontology**.
 
-The EMMO GitHub page provides the repositories hosting the ontologies that constitute the framework.
+The EMMO GitHub page provides the repositories hosting the ontologies that constitute the framework. More specifically it provides repositories for the following EMMO versions:
+1. The **[EMMO](https://github.com/emmo-repo/EMMO)**, the main reference ontology repository, hosting the all the EMMO ontology modules from the top-level (i.e., mereocausality) down to the mid-level (i.e., the disciplines)
+2. *(Work In Progress)* The **HUME** (aka the HUMan readable EMMO), a full version of the EMMO where the UUID-based IRIs are replaced with human readable IRIs with skos:prefLabel. The HUME is generated automatically after every release of the EMMO.
+3. The **[ELITE](https://github.com/emmo-repo/ELITE)** ontology: a subset of HUME that provides an entry-level EMMO based ontological framework, that can be easily expanded to the full HUME or EMMO in case of need
 
-EMMO is released under the [Creative Commons Attribution 4.0 International (CC-BY-4.0)] license.
+This GitHub page hosts also hosts all the official **EMMO domain ontologies** repositories, named using the following convention **domain-*[domain ontology name]***.
