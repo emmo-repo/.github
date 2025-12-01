@@ -27,3 +27,13 @@ This GitHub page hosts also hosts all the official **EMMO domain ontologies** re
 
 If you want to create your domain ontology based on the EMMO, please follow the [Guidelines for EMMO Domain Ontologies Development](https://github.com/emmo-repo/.github/wiki/DomainOntologiesDevelopersGuidelines).
 
+## Tools
+
+**[EMMOntoPy](https://github.com/emmo-repo/EMMOntoPy)** is a Python package based on [Owlready2](https://pypi.org/project/Owlready2/), which provides a natural and intuitive representation of ontologies in Python. EMMOntoPy extends Owlready2 and adds additional functionality, like accessing entities by label, reasoning with FaCT++ and parsing logical expressions in Manchester syntax.  
+
+EMMOntoPy was originally developed to work effectively with the EMMO and EMMO-based domain ontologies, but is usable with any other OWL ontology.
+
+## Publications
+
+A publication list of EMMO-related resources maintained by EMMC is availble [here](https://emmc.eu/emmo/).
+
