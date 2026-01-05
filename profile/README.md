@@ -21,15 +21,19 @@ The EMMO GitHub page provides the repositories hosting the **EMMO ontology** and
 
 You can find an introduction to the EMMO conceptualisation with examples in the [EMMO Wiki](https://github.com/emmo-repo/EMMO/wiki).
 
+
 ### EMMO IRIs
 
 EMMO is a modular ontology with many imported sub-ontologies.
+It has the following rules for the constructing IRIs:
 
-* All **entities** (i.e. classes, properties and individuals) share the same namespace: https://w3id.org/emmo#
+* All **entities** (i.e. classes, properties and individuals) have https://w3id.org/emmo# as their common base IRI (namespace) followed by "EMMO_" and an [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier).
+
+  For example, the IRI of the class Atom is https://w3id.org/emmo#EMMO_eb77076b_a104_42ac_a065_798b2d2809ad.
 
 * The IRIs of all **(sub)ontologies** have https://w3id.org/emmo/ as base followed by their path in the EMMO repository (with the .ttl extension stripped off).
 
-For example, the IRI of the root EMMO ontology (emmo.ttl) is https://w3id.org/emmo/emmo, while the IRI of the semiotics subontology (perspectives/semiotics.ttl) is https://w3id.org/emmo/perspectives/semiotics.
+  For example, the IRI of the root EMMO ontology (emmo.ttl) is https://w3id.org/emmo/emmo, while the IRI of the semiotics subontology (perspectives/semiotics.ttl) is https://w3id.org/emmo/perspectives/semiotics.
 
 
 ## Domain Ontologies
