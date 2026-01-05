@@ -6,7 +6,7 @@
 </p>
 
 
-The **EMMO** is the results of a **multidisciplinary effort** to develop a standard representational framework that is consistent with **scientific principles and methodologies**. It merges the efforts of physicists, engineers, materials scientists, analytical philosophers, information and communication scientists. 
+The **EMMO** is the results of a **multidisciplinary effort** to develop a standard representational framework that is consistent with **scientific principles and methodologies**. It merges the efforts of physicists, engineers, materials scientists, analytical philosophers, information and communication scientists.
 
 The EMMO provides **framework for knowledge capture and interoperability** that is rooted on **applied sciences principles**. However, it's foundational approach makes it suitable for the usage in many other fields and qualifies it as a **top-level ontology**.
 
@@ -21,19 +21,25 @@ The EMMO GitHub page provides the repositories hosting the **EMMO ontology** and
 
 You can find an introduction to the EMMO conceptualisation with examples in the [EMMO Wiki](https://github.com/emmo-repo/EMMO/wiki).
 
+### EMMO IRIs
+
+EMMO is a modular ontology with many imported sub-ontologies.
+All classes and properties in EMMO lives in the https://w3id.org/emmo# namespace, while the IRIs of all (sub)ontologies have https://w3id.org/emmo/ as base followed by their path in the EMMO repository (with the .ttl extension stripped off).
+For example, the IRI of the root EMMO ontology (emmo.ttl) is https://w3id.org/emmo/emmo, while the IRI of the semiotics subontology (perspectives/semiotics.ttl) is https://w3id.org/emmo/perspectives/semiotics.
+
+
 ## Domain Ontologies
 
-This GitHub page hosts also hosts all the official **EMMO domain ontologies** repositories, named using the following convention **domain-*[domain ontology name]***. 
+This GitHub page hosts also hosts all the official **EMMO domain ontologies** repositories, named using the following convention **domain-*[domain ontology name]***.
 
 If you want to create your domain ontology based on the EMMO, please follow the [Guidelines for EMMO Domain Ontologies Development](https://github.com/emmo-repo/.github/wiki/DomainOntologiesDevelopersGuidelines).
 
 ## Tools
 
-**[EMMOntoPy](https://github.com/emmo-repo/EMMOntoPy)** is a Python package based on [Owlready2](https://pypi.org/project/Owlready2/), which provides a natural and intuitive representation of ontologies in Python. EMMOntoPy extends Owlready2 and adds additional functionality, like accessing entities by label, reasoning with FaCT++ and parsing logical expressions in Manchester syntax.  
+**[EMMOntoPy](https://github.com/emmo-repo/EMMOntoPy)** is a Python package based on [Owlready2](https://pypi.org/project/Owlready2/), which provides a natural and intuitive representation of ontologies in Python. EMMOntoPy extends Owlready2 and adds additional functionality, like accessing entities by label, reasoning with FaCT++ and parsing logical expressions in Manchester syntax.
 
 EMMOntoPy was originally developed to work effectively with the EMMO and EMMO-based domain ontologies, but is usable with any other OWL ontology.
 
 ## Publications
 
 A publication list of EMMO-related resources maintained by EMMC is availble [here](https://emmc.eu/emmo/).
-
