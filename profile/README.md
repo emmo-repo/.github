@@ -15,9 +15,9 @@ The EMMO provides **framework for knowledge capture and interoperability** that 
 The EMMO GitHub page provides the repositories hosting the **EMMO ontology** and its **alternative versions** that constitute the framework. More specifically it provides repositories for the following EMMO versions:
 1. The **[EMMO](https://github.com/emmo-repo/EMMO)**, the main reference ontology repository, hosting the all the EMMO ontology modules from the top-level (i.e., mereocausality) down to the mid-level (i.e., the disciplines)
 
-2. *(Work In Progress)* The **HUME** (aka the HUMan readable EMMO), a full version of the EMMO where the UUID-based IRIs are replaced with human readable IRIs taken from the *skos:prefLabel* field. The HUME is generated automatically after every release of the EMMO.
+2. The **[HUME](https://emmo-repo.github.io/hume/hume.ttl)** (aka the HUMan readable EMMO), a full version of the EMMO where the UUID-based IRIs are replaced with human readable IRIs taken from the *skos:prefLabel* field. The HUME is generated automatically after every release of the EMMO.
 
-3. The **[ELITE](https://github.com/emmo-repo/ELITE)** ontology: a subset of HUME that provides an entry-level EMMO based ontological framework, that can be easily expanded to the full HUME or EMMO in case of need
+3. The **[ELITE](https://github.com/emmo-repo/ELITE)** ontology: a subset of HUME that provides an entry-level EMMO based ontological framework, that can be easily expanded to the full HUME or EMMO in case of need.
 
 You can find an introduction to the EMMO conceptualisation with examples in the [EMMO Wiki](https://github.com/emmo-repo/EMMO/wiki).
 
