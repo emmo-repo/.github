@@ -24,7 +24,11 @@ You can find an introduction to the EMMO conceptualisation with examples in the 
 ### EMMO IRIs
 
 EMMO is a modular ontology with many imported sub-ontologies.
-All classes and properties in EMMO lives in the https://w3id.org/emmo# namespace, while the IRIs of all (sub)ontologies have https://w3id.org/emmo/ as base followed by their path in the EMMO repository (with the .ttl extension stripped off).
+
+* All **entities** (i.e. classes, properties and individuals) share the same namespace: https://w3id.org/emmo#
+
+* The IRIs of all **(sub)ontologies** have https://w3id.org/emmo/ as base followed by their path in the EMMO repository (with the .ttl extension stripped off).
+
 For example, the IRI of the root EMMO ontology (emmo.ttl) is https://w3id.org/emmo/emmo, while the IRI of the semiotics subontology (perspectives/semiotics.ttl) is https://w3id.org/emmo/perspectives/semiotics.
 
 
